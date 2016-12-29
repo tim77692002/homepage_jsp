@@ -1,0 +1,226 @@
+/* 버튼 색/배경색 */
+.btn-default {
+	background: #000;
+	color: #fff;
+}
+
+/* 버튼 색/배경색 마우스 올렸을때 */
+.btn-default:hover {
+	background: #fff;
+	color: #000;
+}
+
+/* body 전체 글꼴 */
+.board_body {
+	font-size: 20px;
+}
+
+/* proc에 나오는 문구 박스 */
+.proc_well {
+	text-align: center;
+}
+
+/* 상단부 부제목 */
+.h2_span {
+	margin-bottom: 20px;
+}
+
+/* 검색창 */
+.search {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+/* 이미지 게시판 사진 출력을 위한것들 */
+#imgboard_read_img {
+	width: 500px;
+}
+
+#imgboard_read_mini_img {
+	width: 150px;
+	height: 150px;
+}
+
+#imgboard_read_mini_now_img {
+	width: 250px;
+	height: 250px;
+}
+
+#imgboard_read_img_div {
+	width: 550px;
+	text-align: center;
+}
+
+#imgboard_list_img {
+	width: 200px;
+}
+/* 이미지 게시판 사진 출력을 위한것들 끝 */
+
+/* 멤버 리스트 이미지 */
+#member_list_img {
+	width: 300px;
+}
+
+#member_list_img_div {
+	width: 320px;
+}
+
+#member_read_img {
+	width: 500px;
+}
+
+#member_update_img {
+	width: 500px;
+}
+
+#member_updatefile_img {
+	width: 300px;
+}
+/* 멤버 리스트 이미지 끝*/
+
+/* 게시판 리스트 이미지 */
+#bbs_list_file_td {
+	text-align: left;
+}
+/* 게시판 리스트 이미지 끝*/
+/* 인덱스 */
+#index_content_div {
+	max-width: 1100px;
+	margin-top: 80px;
+	margin-bottom: 80px
+}
+
+#index_img {
+	width: 100%
+}
+
+#index_b {
+	color: red;
+}
+
+#topdiv {
+	font-family: "Lato", sans-serif "
+}
+/* 인덱스 끝 */
+
+/* /* 제목 */
+
+/* .title { */
+/* 	font-size: 27px; */
+/* 	font-weight: bold; */
+/* 	text-align: center; */
+/* 	border-style: solid; 실선 */
+/* 	border-width: 1px; 선 두께 */
+/* 	background-color: #33ffff; */
+/* 	background-color: black; */
+/* 	color: orange; */
+/* 	width: 30%; 화면의 30% */
+/* 	padding: 10px; 위 오른쪽 아래 왼쪽: 시간 방향 적용 */
+/* 	/* padding: 50px 10px;  50px: 위 아래, 10px: 좌우 */
+
+/* 	/* padding-top: 30px; 상단만 간격을 30px 지정*/
+
+/* 	margin-top: 75px; */
+/* 	margin-bottom: 30px; */
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+/* 	color: orange; 가운데 정렬 기능, 20px: 위 아래, auto: 오른쪽 왼쪽 */
+/* } */
+
+/* .search { */
+/* 	text-align: center; */
+/* 	margin-left: auto; */
+/* 	margin-right: auto; */
+/* 	margin-top: 0px; */
+/* 	margin-bottom: 20px; */
+/* } */
+
+/* /* 내용 */
+
+/* .content { */
+/* 	font-size: 24px; */
+/* 	text-align: center; */
+/* 	width: 100%; */
+/* 	padding: 10px; 위 오른쪽 아래 왼쪽 */
+/* 	margin: 0 auto; 가운데 정렬 */
+/* } */
+
+/* /* 하단 메뉴 */
+
+/* .bottom { */
+/* 	margin: 20px auto; */
+/* 	text-align: center; */
+/* 	width: 100%; */
+/* 	padding: 10px; 위 오른쪽 아래 왼쪽 */
+/* } */
+
+/* /* 테이블에 CSS 적용 */
+
+/* TABLE { */
+/* 	margin: 0 auto; 테이블 가운데 정렬 */
+/* 	border-color: orange; 테이블 외곽선 색깔 */
+/* 	border-width: 1px; 테이블 외곽선 두께 */
+/* 	border-style: solid; 테이블 외곽선 스타일 */
+/* 	border-collapse: collapse; 컬럼의 외곽선을 하나로 결합 */
+/* } */
+
+/* TH { */
+/* 	border-color: orange; 테이블 외곽선 색깔 */
+/* 	border-width: 1px; 테이블 외곽선 두께 */
+/* 	border-style: solid; 테이블 외곽선 스타일 */
+/* 	background-color: black; */
+/* 	color: orange; */
+/* 	padding: 5px; 셀 내부 간격 */
+/* } */
+
+/* td { */
+/* 	border-color: orange; 테이블 외곽선 색깔 */
+/* 	border-width: 1px; 테이블 외곽선 두께 */
+/* 	border-style: solid; 테이블 외곽선 스타일 */
+/* 	color: #000000; 글자 색 */
+/* 	background-color: #FFFFFF; 배경 색 */
+/* 	padding: 5px; 셀 내부 간격 */
+/* } */
+
+/* .input { */
+/* 	padding: 0px; */
+/* 	border-color: orange; 테이블 외곽선 색깔 */
+/* 	border-width: 1px; 테이블 외곽선 두께 */
+/* 	border-style: solid; 테이블 외곽선 스타일 */
+/* 	border-top-style: none; */
+/* 	border-right-style: none; */
+/* 	border-left-style: none; */
+/* } */
+
+/* .textarea { */
+/* 	padding: 0px; */
+/* 	border-color: orange; 테이블 외곽선 색깔 */
+/* 	border-width: 1px; 테이블 외곽선 두께 */
+/* 	border-style: solid; 테이블 외곽선 스타일 */
+/* 	border-top-style: none; */
+/* 	border-right-style: none; */
+/* 	border-left-style: none; */
+/* } */
+
+/* A:link { A 태그의 링크 속성 */
+/* 	text-decoration: none; 문자열 꾸미기값을 지정하지 않음, 밑줄 삭제 */
+/* 	color: black; 글자색깔 검정 */
+/* } */
+
+/* A:hover { A 태그에 마우스가 올라 갔을 경우 */
+/* 	text-decoration: none; 문자열 꾸미기값을 지정하지 않음, 밑줄 삭제 */
+/* 	background-color: black; */
+/* 	color: orange; */
+/* } */
+
+/* A:ACTIVE { A 태그에 마우스가 올라 갔을 경우 */
+/* 	text-decoration: none; 문자열 꾸미기값을 지정하지 않음, 밑줄 삭제 */
+/* 	background-color: orange; */
+/* 	color: black; */
+/* } */
+
+/* A:visited { A 태그의 링크를 방문한 경우 */
+/* 	text-decoration: none; 문자열 꾸미기값을 지정하지 않음, 밑줄 삭제 */
+/* 	color: black; 글자색깔 검정 */
+/* } */
